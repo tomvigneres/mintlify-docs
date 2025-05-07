@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Commencer ici",
+            "group": "Démarrer sur Fructu",
             "pages": [
               "index",
               "quickstart",
@@ -31,6 +31,12 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Intégrations",
+            "pages": [
+              "integrations/zapier"
+            ]
           }
         ]
       }
@@ -38,9 +44,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Découvrir Fructu",
+          "anchor": "Site internet",
           "href": "https://fructu.co",
-          "icon": "book-open-cover"
+          "icon": "globe"
         },
         {
           "anchor": "Changelog",
