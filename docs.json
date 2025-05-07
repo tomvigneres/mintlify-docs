@@ -9,10 +9,7 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
+    "groups": [
           {
             "group": "Démarrer sur Fructu",
             "pages": [
@@ -38,9 +35,7 @@
               "integrations/zapier"
             ]
           }
-        ]
-      }
-    ],
+        ],
     "global": {
       "anchors": [
         {
