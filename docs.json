@@ -7,7 +7,7 @@
     "light": "#2F6EFF",
     "dark": "#1443FF"
   },
-  "favicon": "/Fructu_SVG.svg",
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -58,8 +58,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://docs.fructu.co",
+          "anchor": "Découvrir Fructu",
+          "href": "https://fructu.co",
           "icon": "book-open-cover"
         },
         {
