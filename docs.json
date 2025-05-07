@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Commencer ici",
             "pages": [
               "index",
               "quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Les concepts clés",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -30,26 +30,6 @@
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Intégration API",
-        "groups": [
-          {
-            "group": "Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
