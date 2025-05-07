@@ -7,7 +7,7 @@
     "light": "#2F6EFF",
     "dark": "#1443FF"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/Fructu_SVG.svg",
   "navigation": {
     "tabs": [
       {
@@ -64,7 +64,7 @@
         },
         {
           "anchor": "Changelog",
-          "href": "https://app.fructu.co/changelog",
+          "href": "https://fructu.co/changelog",
           "icon": "newspaper"
         }
       ]
