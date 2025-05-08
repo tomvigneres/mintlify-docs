@@ -13,20 +13,16 @@
           {
             "group": "Démarrer sur Fructu",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Les concepts clés",
+            "group": "Les bases du CRM",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/leads",
+              "essentials/tasks",
+              "essentials/dashboard",
+              "essentials/workspace"
             ]
           },
           {
