@@ -9,6 +9,7 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "language": "fr",
     "groups": [
           {
             "group": "Démarrer sur Fructu",
