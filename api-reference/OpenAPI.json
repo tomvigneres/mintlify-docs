@@ -30,37 +30,35 @@
                 "properties": {
                   "firstname": {
                     "type": "string",
-                    "description": "Prénom du Lead"
+                    "description": "Prénom du Lead",
+                    "example": "John"
                   },
                   "lastname": {
                     "type": "string",
-                    "description": "Nom du Lead"
+                    "description": "Nom du Lead",
+                    "example": "Doe"
                   },
                   "email": {
                     "type": "string",
-                    "description": "Adresse Email du Lead"
+                    "description": "Adresse Email du Lead",
+                    "example": "johndoe@example.com"
                   },
                   "phone": {
                     "type": "string",
-                    "description": "Numéro de téléphone du Lead"
+                    "description": "Numéro de téléphone du Lead",
+                    "example": "+33611223344"
                   },
                   "status": {
                     "type": "string",
-                    "description": "Statut actuel du Lead"
+                    "description": "Statut actuel du Lead",
+                    "example": "À contacter"
                   },
                   "note": {
                     "type": "string",
-                    "description": "Attachez une note à ce Lead"
+                    "description": "Attachez une note à ce Lead",
+                    "example": "Exemple de note."
                   }
-                },
-                "example": {
-                  "firstname": "John",
-                  "lastname": "Doe",
-                  "email": "johndoe@example.com",
-                  "phone": "+33611223344",
-                  "status": "À contacter",
-                  "note": "Ceci est une note."
-                  }
+                }
               }
             }
           }
