@@ -1,33 +1,24 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: "Authentification"
+description: "Identifiez votre Workspace et accédez à notre API publique."
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+## Authentification
 
-## Welcome
+Tous les endpoints sont sécurisés grâce à la clé API de votre Workspace.
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Insérez votre clé API dans le header de votre requête comme dans l'exemple ci-dessous.
 
 ```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
+"Authorization": "Bearer {API_KEY}"
 ```
+
+<Info>
+  Vous devez être abonné à Fructu pour utiliser notre API publique
+</Info>
+
+## Où trouver ma clé API ?
+
+Chaque Workspace possède sa propre clé API qui lui permet d'intéragir avec l'API.
+
+Vous trouverez votre clé API dans les paramètre de votre Workspace, dans l'onglet "API".
