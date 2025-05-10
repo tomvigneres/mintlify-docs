@@ -33,10 +33,7 @@
           },
           {
             "group": "API Reference",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/endpoint/create"
-            ]
+            "openapi": "api-reference/OpenAPI.json"
           }
         ],
     "global": {
