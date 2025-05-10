@@ -12,7 +12,7 @@
     "dropdowns": [
       {
       "dropdown": "Documentation",
-      "description": "Documentation officielle de Fructu",
+      "description": "Prendre en main le CRM",
       "icon": "book-open",
       "groups": [
         {
@@ -40,7 +40,7 @@
     },
     {
       "dropdown": "API Reference",
-      "description": "Se connecter à Fructu par API",
+      "description": "Liste des endpoints",
       "icon": "square-terminal",
       "openapi": {
         "source": "api-reference/OpenAPI.json",
