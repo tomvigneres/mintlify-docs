@@ -30,6 +30,12 @@
             "pages": [
               "integrations/zapier"
             ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/endpoint/create"
+            ]
           }
         ],
     "global": {
