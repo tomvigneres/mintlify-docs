@@ -13,10 +13,10 @@
   "paths": {
     "/v1/lead": {
       "post": {
-        "operationId": "createLead",
-        "tags": ["Lead"],
         "summary": "Create lead",
         "description": "Créer un nouveau lead dans votre Workspace Fructu.",
+        "operationId": "createLead",
+        "tags": ["Lead"],
         "security": [
           {
             "bearerAuth": []
