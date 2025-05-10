@@ -9,36 +9,43 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
-          {
-            "group": "Démarrer sur Fructu",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Les bases du CRM",
-            "pages": [
-              "essentials/leads",
-              "essentials/tasks",
-              "essentials/dashboard",
-              "essentials/workspace"
-            ]
-          },
-          {
-            "group": "Intégrations",
-            "pages": [
-              "integrations/zapier"
-            ]
-          },
-          {
-            "group": "API Reference",
-            "openapi": {
-              "source": "api-reference/OpenAPI.json",
-              "directory": ""
-          }
-          }
-        ],
+    "dropdowns": [
+      {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "groups": [
+        {
+          "group": "Démarrer sur Fructu",
+          "pages": [
+            "index"
+          ]
+        },
+        {
+          "group": "Les bases du CRM",
+          "pages": [
+            "essentials/leads",
+            "essentials/tasks",
+            "essentials/dashboard",
+            "essentials/workspace"
+          ]
+        },
+        {
+          "group": "Intégrations",
+          "pages": [
+            "integrations/zapier"
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": "API References",
+      "icon": "square-terminal",
+      "openapi": {
+        "source": "api-reference/OpenAPI.json",
+        "directory": "api-reference"
+      }
+    }
+  ],
     "global": {
       "anchors": [
         {
