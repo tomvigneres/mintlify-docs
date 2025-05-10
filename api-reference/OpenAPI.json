@@ -29,24 +29,28 @@
                 "type": "object",
                 "properties": {
                   "firstname": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Prenom du Lead"
                   },
                   "lastname": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Nom du Lead"
                   },
                   "email": {
                     "type": "string",
-                    "format": "email"
+                    "description": "Adresse Email du Lead"
                   },
                   "phone": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Numéro de téléphone du Lead"
                   },
                   "status": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Statut actuel du Lead"
                   },
                   "note": {
-                    "type": "string"
-                  }
+                    "type": "string",
+                    "description": "Attachez une note à ce Lead"
                 },
                 "example": {
                   "firstname": "John",
