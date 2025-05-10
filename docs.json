@@ -79,6 +79,9 @@
     }
   },
   "api": {
+    "playground": {
+      "display": "simple"
+    },
     "mdx": {
       "server": "https://api.fructu.co",
       "auth": {
