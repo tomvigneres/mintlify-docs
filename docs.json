@@ -73,7 +73,7 @@
   },
   "api": {
     "mdx": {
-      "server": "https://api.fructu.co/v1",
+      "server": "https://api.fructu.co",
       "auth": {
         "method": "bearer"
       },
