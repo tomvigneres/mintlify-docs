@@ -15,7 +15,7 @@
       "post": {
         "operationId": "createLead",
         "tags": ["Lead"],
-        "summary": "Créer un Lead",
+        "summary": "Create lead",
         "description": "Créer un nouveau lead dans votre Workspace Fructu.",
         "security": [
           {
