@@ -41,8 +41,8 @@
       "dropdown": "API Reference",
       "icon": "square-terminal",
       "openapi": {
-        "source": "api-reference/Leads/OpenAPI.json",
-        "directory": "api-reference/Leads"
+        "source": "api-reference/Lead/OpenAPI.json",
+        "directory": "api-reference/Lead"
       }
     }
   ],

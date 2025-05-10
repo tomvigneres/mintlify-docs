@@ -13,9 +13,10 @@
   "paths": {
     "/v1/lead": {
       "post": {
-        "summary": "Créer un lead",
+        "summary": "Créer un Lead",
         "description": "Créer un nouveau lead dans votre Workspace Fructu.",
         "operationId": "createLead",
+        "tags": ["Leads"],
         "security": [
           {
             "bearerAuth": []
@@ -90,6 +91,12 @@
       }
     }
   },
+  "tags": [
+    {
+      "name": "Leads",
+      "description": "Endpoints pour gérer les leads"
+    }
+  ],
   "components": {
     "securitySchemes": {
       "bearerAuth": {
