@@ -65,14 +65,15 @@
         },
         "responses": {
           "200": {
-            "description": "Lead créé avec succès",
+            "description": "Success",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "object",
                   "properties": {
                     "id": {
-                      "type": "string"
+                      "type": "string",
+                      "description": "ID du Lead créé"
                     }
                   }
                 }
@@ -80,10 +81,10 @@
             }
           },
           "400": {
-            "description": "Requête invalide – paramètres malformés"
+            "description": "Bad Request"
           },
           "401": {
-            "description": "Non autorisé – clé API manquante ou invalide"
+            "description": "Unaurthorized"
           }
         }
       }
