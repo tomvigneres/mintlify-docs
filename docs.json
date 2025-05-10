@@ -76,9 +76,6 @@
       "server": "https://api.fructu.co",
       "auth": {
         "method": "bearer"
-      },
-      "playground": {
-        "display": "none"
       }
     }
 },
