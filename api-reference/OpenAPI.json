@@ -14,7 +14,7 @@
     "/v1/lead": {
       "post": {
         "summary": "Créer un lead",
-        "description": "Crée un nouveau lead dans Fructu.",
+        "description": "Créer un nouveau lead dans votre Workspace Fructu.",
         "operationId": "createLead",
         "security": [
           {
@@ -29,29 +29,23 @@
                 "type": "object",
                 "properties": {
                   "firstname": {
-                    "type": "string",
-                    "description": "Prénom du Lead."
+                    "type": "string"
                   },
                   "lastname": {
-                    "type": "string",
-                    "description": "Nom du Lead."
+                    "type": "string"
                   },
                   "email": {
                     "type": "string",
-                    "format": "email",
-                    "description": "Adresse Email du Lead."
+                    "format": "email"
                   },
                   "phone": {
-                    "type": "string",
-                    "description": "Numéro de téléphone du Lead."
+                    "type": "string"
                   },
                   "status": {
-                    "type": "string",
-                    "description": "Statut actuel du Lead. Le statut doit exister dans votre workspace."
+                    "type": "string"
                   },
                   "note": {
-                    "type": "string",
-                    "description": "Renseignez ce paramètre pour attacher une note à ce Lead."
+                    "type": "string"
                   }
                 }
               }
