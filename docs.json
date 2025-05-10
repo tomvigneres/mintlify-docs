@@ -14,6 +14,18 @@
       "dropdown": "Documentation",
       "description": "Prendre en main le CRM",
       "icon": "book-open",
+      "anchors": [
+        {
+          "anchor": "Site internet",
+          "href": "https://fructu.co",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Changelog",
+          "href": "https://fructu.co/changelog",
+          "icon": "newspaper"
+        }
+      ],
       "groups": [
         {
           "group": "Démarrer sur Fructu",
@@ -49,18 +61,6 @@
     }
   ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Site internet",
-          "href": "https://fructu.co",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Changelog",
-          "href": "https://fructu.co/changelog",
-          "icon": "newspaper"
-        }
-      ]
     }
   },
   "logo": {
