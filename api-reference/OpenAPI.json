@@ -29,23 +29,29 @@
                 "type": "object",
                 "properties": {
                   "firstname": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Prénom du Lead."
                   },
                   "lastname": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Nom du Lead."
                   },
                   "email": {
                     "type": "string",
-                    "format": "email"
+                    "format": "email",
+                    "description": "Adresse Email du Lead."
                   },
                   "phone": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Numéro de téléphone du Lead."
                   },
                   "status": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Statut actuel du Lead. Le statut doit exister dans votre workspace."
                   },
                   "note": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "Renseignez ce paramètre pour attacher une note à ce Lead."
                   }
                 }
               }
