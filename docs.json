@@ -12,6 +12,7 @@
     "dropdowns": [
       {
       "dropdown": "Documentation",
+      "description": "Documentation officielle de Fructu",
       "icon": "book-open",
       "groups": [
         {
@@ -39,6 +40,7 @@
     },
     {
       "dropdown": "API Reference",
+      "description": "Se connecter à Fructu par API",
       "icon": "square-terminal",
       "openapi": {
         "source": "api-reference/OpenAPI.json",
