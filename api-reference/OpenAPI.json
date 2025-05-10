@@ -30,7 +30,7 @@
                 "properties": {
                   "firstname": {
                     "type": "string",
-                    "description": "Prenom du Lead"
+                    "description": "Prénom du Lead"
                   },
                   "lastname": {
                     "type": "string",
@@ -51,6 +51,7 @@
                   "note": {
                     "type": "string",
                     "description": "Attachez une note à ce Lead"
+                  }
                 },
                 "example": {
                   "firstname": "John",
