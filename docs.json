@@ -38,11 +38,11 @@
       ]
     },
     {
-      "dropdown": "API References",
+      "dropdown": "API Reference",
       "icon": "square-terminal",
       "openapi": {
-        "source": "api-reference/OpenAPI.json",
-        "directory": "api-reference"
+        "source": "api-reference/Leads/OpenAPI.json",
+        "directory": "api-reference/Leads"
       }
     }
   ],
