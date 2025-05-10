@@ -16,7 +16,7 @@
         "summary": "Créer un Lead",
         "description": "Créer un nouveau lead dans votre Workspace Fructu.",
         "operationId": "createLead",
-        "tags": ["Leads"],
+        "tags": ["Lead"],
         "security": [
           {
             "bearerAuth": []
@@ -93,7 +93,7 @@
   },
   "tags": [
     {
-      "name": "Leads",
+      "name": "Lead",
       "description": "Endpoints pour gérer les leads"
     }
   ],
