@@ -85,7 +85,7 @@
             "description": "Bad Request"
           },
           "401": {
-            "description": "Unaurthorized"
+            "description": "Unauthorized"
           }
         }
       }
@@ -104,5 +104,11 @@
         "scheme": "bearer"
       }
     }
-  }
+  },
+  "x-tagGroups": [
+    {
+      "name": "CRM",
+      "tags": ["Lead"]
+    }
+  ]
 }
