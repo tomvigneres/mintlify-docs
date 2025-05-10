@@ -47,7 +47,15 @@
                   "note": {
                     "type": "string"
                   }
-                }
+                },
+                "example": {
+                  "firstname": "John",
+                  "lastname": "Doe",
+                  "email": "johndoe@example.com",
+                  "phone": "+33611223344",
+                  "status": "À contacter",
+                  "note": "Ceci est une note."
+                  }
               }
             }
           }
