@@ -77,8 +77,8 @@
       "auth": {
         "method": "bearer"
       },
-        "playground": {
-    "display": "none"
+      "playground": {
+        "display": "none"
       }
     }
 },
