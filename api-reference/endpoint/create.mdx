@@ -3,3 +3,29 @@ title: "Créer un Lead"
 api: "POST https://api.fructu.co/v1/lead"
 description: "Cet endpoint vous permet de créer un lead dans votre Workspace"
 ---
+
+## Body
+
+<ParamField body="firstname" type="string">
+  Prénom du lead.
+</ParamField>
+
+<ParamField body="lastname" type="string">
+  Nom du lead.
+</ParamField>
+
+<ParamField body="email" type="string">
+  Adresse e-mail du lead.
+</ParamField>
+
+<ParamField body="phone" type="string">
+  Numéro de téléphone du lead.
+</ParamField>
+
+<ParamField body="status" type="string">
+  Statut actuel du lead. Vous devez indiquer le label exact du statut. Le statut doit exister dans votre Workspace.
+</ParamField>
+
+<ParamField body="note" type="string">
+  Renseignez ce paramètre pour attacher une note sur la fiche du lead.
+</ParamField>
