@@ -51,8 +51,8 @@
                   },
                   "status": {
                     "type": "string",
-                    "description": "Statut actuel du Lead",
-                    "example": "À contacter"
+                    "description": "Statut actuel du Lead (ID)",
+                    "example": "1746014351513x596211749688053600"
                   },
                   "note": {
                     "type": "string",
