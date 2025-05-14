@@ -91,7 +91,7 @@
       }
     },
     "/v1/status": {
-      "post": {
+      "get": {
         "summary": "Retrieve Status",
         "description": "Récupérer la liste des status de votre Workspace.",
         "operationId": "getStatus",
@@ -101,16 +101,6 @@
             "bearerAuth": []
           }
         ],
-        "requestBody": {
-          "required": false,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Success",
