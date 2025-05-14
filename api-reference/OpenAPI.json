@@ -89,6 +89,57 @@
           }
         }
       }
+    },
+    "/v1/status": {
+      "post": {
+        "summary": "Retrieve Status",
+        "description": "Récupérer la liste des status de votre Workspace.",
+        "operationId": "getStatus",
+        "tags": ["Lead"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "description": "Label du Status"
+                    },
+                    "id": {
+                      "type": "string",
+                      "description": "ID unique du Status"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
     }
   },
   "tags": [
