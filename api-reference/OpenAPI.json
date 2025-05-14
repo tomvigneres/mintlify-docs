@@ -92,10 +92,10 @@
     },
     "/v1/status": {
       "get": {
-        "summary": "Retrieve Status",
+        "summary": "List status",
         "description": "Récupérer la liste des status de votre Workspace.",
         "operationId": "getStatus",
-        "tags": ["Lead"],
+        "tags": ["Status"],
         "security": [
           {
             "bearerAuth": []
@@ -111,11 +111,11 @@
                   "properties": {
                     "label": {
                       "type": "string",
-                      "description": "Label du Status"
+                      "description": "Label du status"
                     },
                     "id": {
                       "type": "string",
-                      "description": "ID unique du Status"
+                      "description": "ID unique du status"
                     }
                   }
                 }
@@ -136,6 +136,10 @@
     {
       "name": "Lead",
       "description": "Endpoints pour gérer les leads"
+    },
+        {
+      "name": "Status",
+      "description": "Endpoints pour gérer les status"
     }
   ],
   "components": {
