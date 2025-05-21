@@ -90,7 +90,7 @@
         }
       }
     },
-   "/v1/status": {
+     "/v1/status": {
   "get": {
     "summary": "List status",
     "description": "Récupérer la liste des status de votre Workspace.",
