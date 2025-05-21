@@ -90,48 +90,51 @@
         }
       }
     },
-    "/v1/status": {
-      "get": {
-        "summary": "List status",
-        "description": "Récupérer la liste des status de votre Workspace.",
-        "operationId": "getStatus",
-        "tags": ["Status"],
-        "security": [
-          {
-            "bearerAuth": []
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "label": {
-                      "type": "string",
-                      "description": "Label du status"
-                    },
-                    "id": {
-                      "type": "string",
-                      "description": "ID unique du status"
-                    }
+   "/v1/status": {
+  "get": {
+    "summary": "List status",
+    "description": "Récupérer la liste des status de votre Workspace.",
+    "operationId": "getStatus",
+    "tags": ["Status"],
+    "security": [
+      {
+        "bearerAuth": []
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "Success",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Label du status"
+                  },
+                  "id": {
+                    "type": "string",
+                    "description": "ID unique du status"
                   }
-                }
+                },
+                "required": ["id", "label"]
               }
             }
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "401": {
-            "description": "Unauthorized"
           }
         }
+      },
+      "400": {
+        "description": "Bad Request"
+      },
+      "401": {
+        "description": "Unauthorized"
       }
     }
-  },
+  }
+},
   "tags": [
     {
       "name": "Lead",
