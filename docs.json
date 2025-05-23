@@ -29,12 +29,6 @@
             "essentials/dashboard",
             "essentials/workspace"
           ]
-        },
-        {
-          "group": "Intégrations",
-          "pages": [
-            "integrations/zapier"
-          ]
         }
       ]
     },
