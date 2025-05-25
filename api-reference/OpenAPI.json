@@ -104,7 +104,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "Success. La réponse contient un objet avec une propriété `data` (liste des statuts).",
             "content": {
               "application/json": {
                 "schema": {
@@ -127,6 +127,18 @@
                       }
                     }
                   }
+                },
+                "example": {
+                  "data": [
+                    {
+                      "label": "À contacter",
+                      "id": "1742285896869x689052030883594200"
+                    },
+                    {
+                      "label": "En attente",
+                      "id": "1742285896869x689052030883594201"
+                    }
+                  ]
                 }
               }
             }
