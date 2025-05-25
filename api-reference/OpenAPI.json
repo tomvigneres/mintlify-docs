@@ -108,17 +108,22 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "label": {
-                        "type": "string",
-                        "description": "Label du status"
-                      },
-                      "id": {
-                        "type": "string",
-                        "description": "ID unique du status"
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "label": {
+                            "type": "string",
+                            "description": "Label du statut"
+                          },
+                          "id": {
+                            "type": "string",
+                            "description": "ID unique du statut"
+                          }
+                        }
                       }
                     }
                   }
