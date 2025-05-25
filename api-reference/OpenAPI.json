@@ -94,7 +94,7 @@
     "/v1/status": {
       "get": {
         "summary": "List status",
-        "description": "Récupérer la liste des status de votre Workspace.",
+        "description": "Récupérer la liste des statuts de votre Workspace.",
         "operationId": "getStatus",
         "tags": ["Status"],
         "security": [
@@ -144,7 +144,7 @@
     },
     {
       "name": "Status",
-      "description": "Endpoints pour gérer les status"
+      "description": "Endpoints pour gérer les statuts"
     }
   ],
   "components": {
