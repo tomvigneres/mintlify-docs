@@ -120,8 +120,7 @@
                         "type": "string",
                         "description": "ID unique du status"
                       }
-                    },
-                    "required": ["id", "label"]
+                    }
                   }
                 }
               }
