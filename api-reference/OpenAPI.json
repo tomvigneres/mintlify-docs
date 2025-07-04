@@ -55,6 +55,16 @@
                     "description": "Statut actuel du Lead (ID)",
                     "example": "1746014351513x596211749688053600"
                   },
+                  "lists": {
+                    "type": "string",
+                    "description": "Ajouter le lead dans une ou plusieurs listes (ID)",
+                    "example": ["1746014351513x596211749945813904","1746014351513x3219381149688053629"]
+                  },
+                  "user": {
+                    "type": "string",
+                    "description": "Attribuer le lead à un utilisateur (ID)",
+                    "example": "1746014351513x595821749688053394"
+                  },
                   "note": {
                     "type": "string",
                     "description": "Attachez une note à ce Lead",
@@ -151,6 +161,128 @@
           }
         }
       }
+    },
+    "/v1/list": {
+      "get": {
+        "summary": "List lists",
+        "description": "Récupérer la liste des listes de votre Workspace.",
+        "operationId": "getLists",
+        "tags": ["Lists"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success. La réponse contient un objet avec une propriété `data`.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "label": {
+                            "type": "string",
+                            "description": "Label de la liste"
+                          },
+                          "id": {
+                            "type": "string",
+                            "description": "ID unique de la liste"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "example": {
+                  "data": [
+                    {
+                      "label": "Clients",
+                      "id": "1742285896869x689052030883594200"
+                    },
+                    {
+                      "label": "Prospects",
+                      "id": "1742285896869x689052030883594201"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
+    "/v1/user": {
+      "get": {
+        "summary": "List users",
+        "description": "Récupérer la liste des membres de votre Workspace.",
+        "operationId": "getUsers",
+        "tags": ["Lists"],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success. La réponse contient un objet avec une propriété `data`.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "label": {
+                            "type": "string",
+                            "description": "Nom de l'utilisateur"
+                          },
+                          "id": {
+                            "type": "string",
+                            "description": "ID unique de l'utilisateur"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "example": {
+                  "data": [
+                    {
+                      "label": "Tom Vigneres",
+                      "id": "1742285896869x689052030883594200"
+                    },
+                    {
+                      "label": "John Doe",
+                      "id": "1742285896869x689052030883594201"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
     }
   },
   "tags": [
@@ -161,6 +293,14 @@
     {
       "name": "Status",
       "description": "Endpoints pour gérer les statuts"
+    },
+    {
+      "name": "List",
+      "description": "Endpoints pour gérer les listes"
+    },
+    {
+      "name": "User",
+      "description": "Endpoints pour gérer les membres du Workspace"
     }
   ],
   "components": {
@@ -170,11 +310,5 @@
         "scheme": "bearer"
       }
     }
-  },
-  "x-tagGroups": [
-    {
-      "name": "CRM",
-      "tags": ["Lead"]
-    }
-  ]
+  }
 }
