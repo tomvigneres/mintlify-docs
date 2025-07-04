@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "willow",
   "name": "Fructu",
   "colors": {
     "primary": "#1443FF",
@@ -13,9 +13,9 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "dropdowns": [
+    "tabs": [
       {
-      "dropdown": "Documentation",
+      "tab": "Documentation",
       "description": "Prendre en main le CRM",
       "icon": "book-open",
       "groups": [
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "dropdown": "API Reference",
+      "tab": "API Reference",
       "description": "Liste des endpoints",
       "icon": "square-terminal",
       "groups": [
