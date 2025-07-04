@@ -13,7 +13,7 @@
   "paths": {
     "/v1/lead": {
       "post": {
-        "summary": "Create lead",
+        "summary": "Create Lead",
         "description": "Créer un nouveau lead dans votre Workspace Fructu.",
         "operationId": "createLead",
         "tags": ["Lead"],
@@ -103,7 +103,7 @@
     },
     "/v1/status": {
       "get": {
-        "summary": "List status",
+        "summary": "List Status",
         "description": "Récupérer la liste des statuts de votre Workspace.",
         "operationId": "getStatus",
         "tags": ["Status"],
@@ -164,7 +164,7 @@
     },
     "/v1/list": {
       "get": {
-        "summary": "List lists",
+        "summary": "List Lists",
         "description": "Récupérer la liste des listes de votre Workspace.",
         "operationId": "getLists",
         "tags": ["Lists"],
@@ -225,10 +225,10 @@
     },
     "/v1/user": {
       "get": {
-        "summary": "List users",
+        "summary": "List Users",
         "description": "Récupérer la liste des membres de votre Workspace.",
         "operationId": "getUsers",
-        "tags": ["Lists"],
+        "tags": ["Users"],
         "security": [
           {
             "bearerAuth": []
