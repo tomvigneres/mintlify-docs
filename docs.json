@@ -63,7 +63,7 @@
           "icon": "globe"
         },
         {
-          "anchor": "Changelog",
+          "anchor": "Mises à jour",
           "href": "https://fructu.co/changelog",
           "icon": "newspaper"
         }
@@ -73,19 +73,6 @@
   "logo": {
     "light": "/light.svg",
     "dark": "/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hello@fructu.co"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.fructu.co"
-    }
   },
   "api": {
     "playground": {
