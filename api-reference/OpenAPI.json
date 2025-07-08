@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Fructu API",
-    "description": "API pour créer un lead",
+    "description": "API pour interagir avec votre Workspace Fructu",
     "version": "1.0.0"
   },
   "servers": [
@@ -11,12 +11,12 @@
     }
   ],
   "paths": {
-    "/v1/lead": {
+    "/v1/contact": {
       "post": {
-        "summary": "Create Lead",
-        "description": "Créer un nouveau lead dans votre Workspace Fructu.",
-        "operationId": "createLead",
-        "tags": ["Lead"],
+        "summary": "Create Contact",
+        "description": "Créer un nouveau Contact dans votre Workspace Fructu.",
+        "operationId": "createContact",
+        "tags": ["Contact"],
         "security": [
           {
             "bearerAuth": []
@@ -31,43 +31,43 @@
                 "properties": {
                   "firstname": {
                     "type": "string",
-                    "description": "Prénom du Lead",
+                    "description": "Prénom du Contact",
                     "example": "John"
                   },
                   "lastname": {
                     "type": "string",
-                    "description": "Nom du Lead",
+                    "description": "Nom du Contact",
                     "example": "Doe"
                   },
                   "email": {
                     "type": "string",
                     "format": "email",
-                    "description": "Adresse Email du Lead",
+                    "description": "Adresse Email du Contact",
                     "example": "johndoe@example.com"
                   },
                   "phone": {
                     "type": "string",
-                    "description": "Numéro de téléphone du Lead",
+                    "description": "Numéro de téléphone du Contact",
                     "example": "+33611223344"
                   },
                   "status": {
                     "type": "string",
-                    "description": "Statut actuel du Lead (ID)",
+                    "description": "Statut actuel du Contact (ID)",
                     "example": "1746014351513x596211749688053600"
                   },
                   "lists": {
                     "type": "string",
-                    "description": "Ajouter le lead dans une ou plusieurs listes (ID)",
+                    "description": "Ajouter le Contact dans une ou plusieurs listes (ID)",
                     "example": ["1746014351513x596211749945813904","1746014351513x3219381149688053629"]
                   },
                   "user": {
                     "type": "string",
-                    "description": "Attribuer le lead à un utilisateur (ID)",
+                    "description": "Attribuer le Contact à un utilisateur (ID)",
                     "example": "1746014351513x595821749688053394"
                   },
                   "note": {
                     "type": "string",
-                    "description": "Attachez une note à ce Lead",
+                    "description": "Attachez une note à ce Contact",
                     "example": "Exemple de note."
                   }
                 }
@@ -85,7 +85,7 @@
                   "properties": {
                     "id": {
                       "type": "string",
-                      "description": "ID du Lead créé"
+                      "description": "ID du Contact créé"
                     }
                   }
                 }

@@ -28,7 +28,7 @@
         {
           "group": "Les bases du CRM",
           "pages": [
-            "essentials/leads",
+            "essentials/contacts",
             "essentials/tasks",
             "essentials/dashboard",
             "essentials/workspace"
